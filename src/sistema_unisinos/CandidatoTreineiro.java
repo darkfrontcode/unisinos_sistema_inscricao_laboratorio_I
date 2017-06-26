@@ -5,7 +5,7 @@ public class CandidatoTreineiro extends Candidato {
     private String extraInfoOne;
     private String extraInfoTwo;
 
-    public void CandidatoTreineiro(
+    public CandidatoTreineiro(
         int numero_cadastro,
         String nome,
         String curso,
@@ -26,7 +26,7 @@ public class CandidatoTreineiro extends Candidato {
         this.extraInfoTwo = extraInfoTwo;
     }
 
-    public void CandidatoTreineiro(
+    public CandidatoTreineiro(
         int numero_cadastro,
         String nome,
         String curso,

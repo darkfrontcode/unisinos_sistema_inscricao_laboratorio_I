@@ -8,7 +8,7 @@ public class Candidato {
     private String data;
     private Campus campus;
 
-    public void Candidato(
+    public Candidato(
         int numero_cadastro,
         String nome,
         String curso,
