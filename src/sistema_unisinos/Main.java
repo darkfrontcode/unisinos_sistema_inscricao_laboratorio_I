@@ -1,10 +1,12 @@
 package sistema_unisinos;
 
+import org.junit.runner.JUnitCore;
+
 public class Main {
 
     public static void main(String[] args)
     {
-        Inscricao inscricao = new Inscricao(2);
-        inscricao.app();
+        JUnitCore.runClasses(Test.class);
     }
+
 }

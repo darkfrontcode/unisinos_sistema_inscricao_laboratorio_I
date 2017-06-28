@@ -100,10 +100,12 @@ public class Candidato {
     public void info()
     {
         Log.out("=== Informações do Candidato ===");
+        Log.out("\t");
         Log.out("Número de cadastro: " + numero_cadastro);
         Log.out("Nome: " + nome);
         Log.out("Curso: " + curso);
         Log.out("Data de inscrição: " + data);
+        Log.out("\t");
         campus.info();
     }
 

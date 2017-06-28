@@ -62,6 +62,11 @@ public class Campus {
     public void info()
     {
         Log.out("=== Informações do Campus ===");
+        Log.out("\t");
+        Log.out("Id: " + id);
+        Log.out("Nome: " + nome);
+        Log.out("Descrição: " + descricao);
+        Log.out("\t");
     }
 
 }
